@@ -1,0 +1,15 @@
+<div class='col-lg-12 navbar navbar-default navbar-static-top'>
+  <a href='/' class='navbar-brand'>Robot World</a>
+</div>
+
+<form action="/robots" method="post">
+  <h1>Enter a new robot:</h1>
+  <p> name: </p><input type='text' name='robot[name]'/><br/>
+  <p> city: </p><input type='text' name='robot[city]'/><br/>
+  <p> state: </p><input type='text' name='robot[state]'/><br/>
+  <p> avatar: </p><input type='text' name='robot[avatar]'/><br/>
+  <p> birthdate: </p><input type='text' name='robot[birthdate]'/><br/>
+  <p> date_hired: </p><input type='text' name='robot[date_hired]'/><br/>
+  <p> department: </p><input type='text' name='robot[department]'/><br/>
+  <input type='submit' value="create robot" />
+</form>

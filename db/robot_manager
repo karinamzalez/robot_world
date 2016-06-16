@@ -1,0 +1,11 @@
+---
+robots:
+- id: 2
+  name: Hiatus Kaiyote
+  city: Nakamarra
+  state: Tawk Tomahawk
+  avatar: https://robohash.org/nai.palm
+  birthdate: 08/19/2013
+  date_hired: 05/11/16
+  department: Swag
+total: 2
